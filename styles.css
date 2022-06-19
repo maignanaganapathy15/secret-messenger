@@ -1,0 +1,69 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  max-height: 50px;
+  min-height: 10px;
+  width: 100%;
+  display: block;
+}
+body {
+  background-color: #1451a1;
+}
+
+ul {
+  display: flex;
+  background: violet;
+  justify-content: center;
+}
+li {
+  list-style: none;
+  padding: 10px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+#ed {
+  padding: 10px;
+}
+textarea {
+  height: 200px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #303134;
+  font-family: monospace;
+  font-size: 19px;
+  line-height: 1.5;
+  outline: none;
+  color: #ffffff;
+  /* font-weight: 100; */
+  border: 1px solid violet;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  /* resize: vertical; */
+}
+
+input {
+  background-color: #3a3d44;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid violet;
+}
+
+label {
+  color: #b8ca13;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, Cochin, Georgia, Times,
+    "Times New Roman", serif, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding-left: 20px;
+  text-align: left;
+}
+input:focus {
+  background-color: grey;
+}

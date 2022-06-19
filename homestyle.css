@@ -1,0 +1,36 @@
+body {
+  background-color: #1451a1;
+}
+
+h1,
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  display: block;
+  color: black;
+  display: block;
+}
+
+button {
+  background-color: yellow;
+  height: 8em;
+  width: 7em;
+  /* align-items: center; */
+  text-align: center;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+button:hover {
+  height: 10em;
+  width: 14em;
+}
+div {
+  text-align: center;
+}
